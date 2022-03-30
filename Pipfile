@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"ga4gh.vrs[extras]" = "==0.7.4"
+jupyterlab = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
